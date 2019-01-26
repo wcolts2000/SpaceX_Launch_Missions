@@ -1,0 +1,33 @@
+{
+  "name": "spacex-launch-info",
+  "version": "1.0.0",
+  "description": "an app listing SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcolts2000/SpaceX-Launch-Info.git"
+  },
+  "author": "Sean Pheneger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wcolts2000/SpaceX-Launch-Info/issues"
+  },
+  "homepage": "https://github.com/wcolts2000/SpaceX-Launch-Info#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
