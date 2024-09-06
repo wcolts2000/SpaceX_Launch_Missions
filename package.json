@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/wcolts2000/SpaceX-Launch-Info#readme",
   "dependencies": {
-    "axios": "^1.6.0",
+    "axios": "^1.7.4",
     "concurrently": "^7.6.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
